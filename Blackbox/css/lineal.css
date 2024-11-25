@@ -1,0 +1,61 @@
+.lineal {
+    width: 10rem;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem; 
+}
+
+h2 {
+    font-family: "Dancing Script", sans-serif;
+    letter-spacing: 1px;
+    font-size: 2.3rem;
+}
+
+h3 {
+    font-family: "Lora", sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    background-color: #ffd0e7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #a33971;
+}
+
+main {
+    text-align: center;
+}
+
+.footer {
+    color: #aeaeae;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #BE0032;
+    text-decoration: none;
+    transform: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #d96fff;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: #666;
+}
+
+.bi {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.card {
+    margin: 1rem 0; 
+}
+
