@@ -1,0 +1,111 @@
+/* styles.css */
+body {
+    overflow: hidden; /* Evitar scroll por los moños */
+}
+
+.bow {
+    position: absolute;
+    width: 50px; /* Ajusta el tamaño del moño */
+    height: 50px;
+    background-color: #ff6fa4; /* Color del moño */
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%); /* Forma de moño */
+    animation: fall linear forwards;
+}
+
+@keyframes fall {
+    0% {
+        top: -10%;
+        opacity: 1;
+    }
+    100% {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+.container{
+    padding: 1.5rem;
+}
+
+.section {
+    padding: 1.5rem;
+}
+.card {
+    height: 100%; 
+    display: flex;
+    flex-direction: column; 
+}
+.card-img-top {
+    max-width: 100%; 
+    height: auto; 
+    flex-grow: 1; 
+}
+.card-body {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 20px rgb(255, 20, 87);
+}
+
+
+h2 {
+    font-family: "Dancing Script", sans-serif;
+    letter-spacing: 1px;
+    font-size: 2.3rem;
+}
+h3 {
+    font-family: "Lora", sans-serif;
+    font-size: 1rem;
+}
+body {
+    background-color: #ffd0e7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #a33971;
+}
+main {
+    text-align: center;
+}
+.footer {
+    color: #aeaeae;
+    padding: 20px;
+    text-align: center;
+}
+.footer-links a {
+    margin: 0 10px;
+    color: #BE0032;
+    text-decoration: none;
+    transform: color 0.2s ease;
+}
+.footer-links a:hover {
+    color: #d96fff;
+}
+.footer-copyright {
+    font-size: 14px;
+    color: #666;
+}
+.bi {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.btn-custom {
+    background-color: rgb(244, 149, 171); /* Color de fondo rosa */
+    color: black; /* Color del texto negro */
+    border: none; /* Sin borde */
+}
+
+.btn-custom:hover {
+    background-color: lightcoral; /* Color de fondo al pasar el mouse */
+    color: white; /* Color del texto al pasar el mouse */
+}
